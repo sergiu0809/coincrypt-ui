@@ -44,5 +44,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
     onClickSignup() {
         this.router.navigate(['/signup']);
+        // navigate to signup page
     }
 }
