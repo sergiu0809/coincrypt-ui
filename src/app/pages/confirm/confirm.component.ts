@@ -76,6 +76,7 @@ export class ConfirmComponent implements OnInit, AfterViewInit, OnDestroy {
         }
 
         this.settings.loading = true;
+        // show loading
 
         this.api.login(this.signinForm).subscribe(res => {
             this.settings.loading = false;
