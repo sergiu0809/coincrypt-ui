@@ -27,7 +27,6 @@ export class AuthLayoutComponent implements OnInit, AfterViewInit {
 
         if (this.settings.getUserSetting('role') == 'admin') {
             this.router.navigate(['/admin/dashboard']);
-            // navigate to admin/dashboard
         }
     }
 
