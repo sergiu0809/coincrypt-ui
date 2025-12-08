@@ -66,6 +66,7 @@ export class ConfirmComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
     onSignin() {
+        // Signin
         if (this.signinForm.email == '' || this.signinForm.password == '') {
             return;
         }
