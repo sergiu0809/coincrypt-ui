@@ -49,6 +49,7 @@ export class LoginComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
     successLogin() {
+        // function after login
         this.settings.user = this.res;
         this.settings.setAppSetting('is_loggedin', true);
         this.settings.setStorage('token', this.res.token);
