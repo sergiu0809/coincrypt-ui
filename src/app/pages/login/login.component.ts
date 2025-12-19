@@ -46,6 +46,7 @@ export class LoginComponent implements OnInit, AfterViewInit, OnDestroy {
 
     onSignup() {
         this.router.navigate(['signup']);
+        // navigate to signup page
     }
 
     successLogin() {
