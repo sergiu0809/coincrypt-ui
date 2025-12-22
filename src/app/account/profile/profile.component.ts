@@ -33,6 +33,7 @@ export class ProfileComponent implements OnInit, AfterViewInit, OnDestroy {
 
     ngOnInit() {
         this.profile = this.settings.getUserSetting('profile');
+        // get user profile setting
 
         $("#phone").intlTelInput({
             placeholderNumberType: "MOBILE",
