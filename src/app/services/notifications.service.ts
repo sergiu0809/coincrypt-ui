@@ -12,6 +12,7 @@ export class NotifyService {
 
     }
 
+    // show success notification
     showSuccess(message) {
         $.toast({
             heading: 'Success',
